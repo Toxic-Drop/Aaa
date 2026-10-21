@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katna Classic Bakers | Fresh Cakes & Snacks Mukerian</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body { background-color: #faf7f2; color: #333; padding-bottom: 80px; }
+    
+    /* Header */
+    header { background: #5c2d16; color: #fff; text-align: center; padding: 28px 16px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; }
+    header h1 { font-size: 24px; font-weight: 700; margin-bottom: 6px; }
+    header p { font-size: 14px; opacity: 0.9; }
+    .badge { display: inline-block; background: #e07a5f; color: #fff; font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 20px; margin-top: 10px; }
+
+    /* Info Bar */
+    .info-bar { background: #fff; margin: 16px; padding: 14px 16px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-size: 13px; line-height: 1.6; }
+    .info-bar strong { color: #5c2d16; }
+
+    /* Section Titles */
+    .section-title { font-size: 18px; font-weight: 700; color: #5c2d16; margin: 20px 16px 10px; }
+
+    /* Grid */
+    .menu-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 0 16px; }
+    .card { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.05); display: flex; flex-direction: column; }
+    .card img { width: 100%; height: 110px; object-fit: cover; }
+    .card-body { padding: 10px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; }
+    .card-body h3 { font-size: 14px; margin-bottom: 4px; }
+    .card-body .price { font-size: 13px; font-weight: 700; color: #e07a5f; margin-bottom: 8px; }
+    
+    /* Buttons */
+    .order-btn { display: block; text-align: center; background: #25d366; color: white; text-decoration: none; font-size: 12px; font-weight: bold; padding: 7px 0; border-radius: 6px; }
+    
+    /* Floating Bottom Bar */
+    .floating-bar { position: fixed; bottom: 0; left: 0; right: 0; background: #ffffff; padding: 12px 16px; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); display: flex; gap: 10px; }
+    .floating-btn { flex: 1; padding: 12px; border-radius: 8px; text-align: center; font-size: 14px; font-weight: 600; text-decoration: none; }
+    .btn-maps { background: #eaeaea; color: #333; }
+    .btn-wa { background: #25d366; color: #fff; }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Katna Classic Bakers</h1>
+    <p>Fresh Cakes, Pastries & Everyday Savory Bites</p>
+    <span class="badge">Open Daily: 6:00 AM – 10:00 PM</span>
+  </header>
+
+  <!-- Location Info -->
+  <div class="info-bar">
+    📍 <strong>Address:</strong> Talwara Road, Opp. Petrol Pump, Tikkhowal, Mukerian<br>
+    🎂 <strong>Custom Orders:</strong> Birthday & Anniversary Photo Cakes available on order.
+  </div>
+
+  <!-- Cake Section -->
+  <div class="section-title">Fresh Cakes & Pastries</div>
+  <div class="menu-grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80" alt="Chocolate Truffle Cake">
+      <div class="card-body">
+        <h3>Chocolate Truffle</h3>
+        <p class="price">₹350 / 500g</p>
+        <a class="order-btn" href="https://wa.me/919888964044?text=Hi,%20I%20want%20to%20order%20Chocolate%20Truffle%20Cake">Order Cake</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&q=80" alt="Pineapple Cake">
+      <div class="card-body">
+        <h3>Fresh Pineapple</h3>
+        <p class="price">₹280 / 500g</p>
+        <a class="order-btn" href="https://wa.me/919888964044?text=Hi,%20I%20want%20to%20order%20Pineapple%20Cake">Order Cake</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Savory Counter -->
+  <div class="section-title">Bakery Snacks & Bites</div>
+  <div class="menu-grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&q=80" alt="Crispy Paneer Patties">
+      <div class="card-body">
+        <h3>Paneer Patty</h3>
+        <p class="price">₹30 each</p>
+        <a class="order-btn" href="https://wa.me/919888964044?text=Hi,%20I%20want%20to%20inquire%20about%20Paneer%20Patties">Inquire</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80" alt="Fresh Bakery Biscuits">
+      <div class="card-body">
+        <h3>Special Biscuits</h3>
+        <p class="price">₹120 / pack</p>
+        <a class="order-btn" href="https://wa.me/919888964044?text=Hi,%20I%20want%20to%20order%20Bakery%20Biscuits">Inquire</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Sticky Action Buttons -->
+  <div class="floating-bar">
+    <a class="floating-btn btn-maps" href="https://maps.google.com/?q=Katna+Classic+Bakers+Mukerian">📍 Directions</a>
+    <a class="floating-btn btn-wa" href="https://wa.me/919888964044?text=Hello%20Katna%20Classic%20Bakers,%20I%20have%20an%20order%20inquiry">💬 Chat on WhatsApp</a>
+  </div>
+
+</body>
+</html>
